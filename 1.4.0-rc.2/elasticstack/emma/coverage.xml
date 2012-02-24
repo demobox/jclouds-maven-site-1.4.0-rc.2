@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><!-- EMMA v2.0.5312 report, generated Wed Feb 22 11:07:09 EST 2012 -->
+<?xml version="1.0" encoding="UTF-8"?><!-- EMMA v2.0.5312 report, generated Fri Feb 24 11:17:03 EST 2012 -->
 
 <report>
   <stats>
@@ -12,8 +12,8 @@
     <all name="all classes">
       <coverage type="class, %" value="92%  (88/96)"/>
       <coverage type="method, %" value="72%  (297/411)"/>
-      <coverage type="block, %" value="63%  (5281/8415)"/>
-      <coverage type="line, %" value="64%  (912.1/1420)"/>
+      <coverage type="block, %" value="63%  (5287/8415)"/>
+      <coverage type="line, %" value="64%  (915.1/1420)"/>
 
       <package name="org.jclouds.elasticstack.reference">
         <coverage type="class, %" value="0%   (0/1)"/>
@@ -347,8 +347,8 @@
       <package name="org.jclouds.elasticstack.domain">
         <coverage type="class, %" value="89%  (32/36)"/>
         <coverage type="method, %" value="70%  (194/279)"/>
-        <coverage type="block, %" value="56%  (2522/4501)"/>
-        <coverage type="line, %" value="56%  (474.4/846)"/>
+        <coverage type="block, %" value="56%  (2528/4501)"/>
+        <coverage type="line, %" value="56%  (477.4/846)"/>
 
         <srcfile name="BlockDevice.java">
           <coverage type="class, %" value="0%   (0/2)"/>
@@ -726,8 +726,8 @@
         <srcfile name="Item.java">
           <coverage type="class, %" value="100% (2/2)"/>
           <coverage type="method, %" value="69%  (11/16)"/>
-          <coverage type="block, %" value="41%  (153/371)"/>
-          <coverage type="line, %" value="42%  (36.7/87)"/>
+          <coverage type="block, %" value="42%  (155/371)"/>
+          <coverage type="line, %" value="43%  (37.7/87)"/>
 
           <class name="Item$Builder">
             <coverage type="class, %" value="100% (1/1)"/>
@@ -779,8 +779,8 @@
           <class name="Item">
             <coverage type="class, %" value="100% (1/1)"/>
             <coverage type="method, %" value="75%  (6/8)"/>
-            <coverage type="block, %" value="65%  (116/179)"/>
-            <coverage type="line, %" value="64%  (25.7/40)"/>
+            <coverage type="block, %" value="66%  (118/179)"/>
+            <coverage type="line, %" value="67%  (26.7/40)"/>
 
             <method name="getUuid (): String">
               <coverage type="method, %" value="0%   (0/1)"/>
@@ -794,8 +794,8 @@
             </method>
             <method name="equals (Object): boolean">
               <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="61%  (42/69)"/>
-              <coverage type="line, %" value="48%  (11/23)"/>
+              <coverage type="block, %" value="64%  (44/69)"/>
+              <coverage type="line, %" value="52%  (12/23)"/>
             </method>
             <method name="hashCode (): int">
               <coverage type="method, %" value="100% (1/1)"/>
@@ -1079,14 +1079,14 @@
         <srcfile name="ServerInfo.java">
           <coverage type="class, %" value="100% (2/2)"/>
           <coverage type="method, %" value="77%  (20/26)"/>
-          <coverage type="block, %" value="67%  (271/406)"/>
-          <coverage type="line, %" value="73%  (47.7/65)"/>
+          <coverage type="block, %" value="67%  (273/406)"/>
+          <coverage type="line, %" value="75%  (48.7/65)"/>
 
           <class name="ServerInfo">
             <coverage type="class, %" value="100% (1/1)"/>
             <coverage type="method, %" value="38%  (3/8)"/>
-            <coverage type="block, %" value="51%  (135/263)"/>
-            <coverage type="line, %" value="62%  (26.7/43)"/>
+            <coverage type="block, %" value="52%  (137/263)"/>
+            <coverage type="line, %" value="64%  (27.7/43)"/>
 
             <method name="getMetrics (): ServerMetrics">
               <coverage type="method, %" value="0%   (0/1)"/>
@@ -1115,8 +1115,8 @@
             </method>
             <method name="equals (Object): boolean">
               <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="71%  (55/78)"/>
-              <coverage type="line, %" value="56%  (14/25)"/>
+              <coverage type="block, %" value="73%  (57/78)"/>
+              <coverage type="line, %" value="60%  (15/25)"/>
             </method>
             <method name="hashCode (): int">
               <coverage type="method, %" value="100% (1/1)"/>
@@ -1279,14 +1279,14 @@
         <srcfile name="Server.java">
           <coverage type="class, %" value="100% (2/2)"/>
           <coverage type="method, %" value="89%  (24/27)"/>
-          <coverage type="block, %" value="68%  (351/515)"/>
-          <coverage type="line, %" value="75%  (71.6/95)"/>
+          <coverage type="block, %" value="69%  (353/515)"/>
+          <coverage type="line, %" value="76%  (72.6/95)"/>
 
           <class name="Server">
             <coverage type="class, %" value="100% (1/1)"/>
             <coverage type="method, %" value="92%  (11/12)"/>
-            <coverage type="block, %" value="66%  (238/358)"/>
-            <coverage type="line, %" value="69%  (47.6/69)"/>
+            <coverage type="block, %" value="67%  (240/358)"/>
+            <coverage type="line, %" value="70%  (48.6/69)"/>
 
             <method name="toString (): String">
               <coverage type="method, %" value="0%   (0/1)"/>
@@ -1295,8 +1295,8 @@
             </method>
             <method name="equals (Object): boolean">
               <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="65%  (80/124)"/>
-              <coverage type="line, %" value="49%  (19/39)"/>
+              <coverage type="block, %" value="66%  (82/124)"/>
+              <coverage type="line, %" value="51%  (20/39)"/>
             </method>
             <method name="hashCode (): int">
               <coverage type="method, %" value="100% (1/1)"/>
