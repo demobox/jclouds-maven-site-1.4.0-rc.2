@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><!-- EMMA v2.0.5312 report, generated Wed Feb 22 11:07:09 EST 2012 -->
+<?xml version="1.0" encoding="UTF-8"?><!-- EMMA v2.0.5312 report, generated Fri Feb 24 11:17:03 EST 2012 -->
 
 <report>
   <stats>
@@ -11,9 +11,9 @@
   <data>
     <all name="all classes">
       <coverage type="class, %" value="87%  (385/445)"/>
-      <coverage type="method, %" value="58%  (2089/3581)"/>
-      <coverage type="block, %" value="61%  (30384/49596)"/>
-      <coverage type="line, %" value="56%  (4864.2/8720)"/>
+      <coverage type="method, %" value="58%  (2087/3581)"/>
+      <coverage type="block, %" value="61%  (30308/49596)"/>
+      <coverage type="line, %" value="56%  (4843.8/8720)"/>
 
       <package name="org.jclouds.cloudstack.util">
         <coverage type="class, %" value="50%  (1/2)"/>
@@ -575,9 +575,9 @@
       </package>
       <package name="org.jclouds.cloudstack.domain">
         <coverage type="class, %" value="81%  (120/148)"/>
-        <coverage type="method, %" value="51%  (1020/1984)"/>
-        <coverage type="block, %" value="58%  (18966/32673)"/>
-        <coverage type="line, %" value="50%  (2879.4/5723)"/>
+        <coverage type="method, %" value="51%  (1018/1984)"/>
+        <coverage type="block, %" value="58%  (18890/32673)"/>
+        <coverage type="line, %" value="50%  (2858.9/5723)"/>
 
         <srcfile name="Event.java">
           <coverage type="class, %" value="0%   (0/2)"/>
@@ -4134,6 +4134,192 @@
             </method>
           </class>
         </srcfile>
+        <srcfile name="NetworkOffering.java">
+          <coverage type="class, %" value="100% (2/2)"/>
+          <coverage type="method, %" value="52%  (17/33)"/>
+          <coverage type="block, %" value="58%  (328/564)"/>
+          <coverage type="line, %" value="44%  (52/118)"/>
+
+          <class name="NetworkOffering">
+            <coverage type="class, %" value="100% (1/1)"/>
+            <coverage type="method, %" value="37%  (7/19)"/>
+            <coverage type="block, %" value="55%  (254/466)"/>
+            <coverage type="line, %" value="36%  (33/91)"/>
+
+            <method name="equals (Object): boolean">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/146)"/>
+              <coverage type="line, %" value="0%   (0/46)"/>
+            </method>
+            <method name="getAvailability (): NetworkOfferingAvailabilityType">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/3)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="getCreated (): Date">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/3)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="getDisplayText (): String">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/3)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="getGuestIPType (): GuestIPType">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/3)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="getMaxConnections (): Integer">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/3)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="getName (): String">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/3)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="getNetworkRate (): int">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/3)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="getTags (): Set">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/12)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="getTrafficType (): TrafficType">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/3)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="isDefault (): boolean">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/3)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="supportsVLAN (): boolean">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/3)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="hashCode (): int">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="85%  (112/132)"/>
+              <coverage type="line, %" value="93%  (12/13)"/>
+            </method>
+            <method name="NetworkOffering (long, String, String, Date, NetworkOfferingAvailabilityType, boolean, Integer, boolean, TrafficType, GuestIPType, int, Set): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="92%  (46/50)"/>
+              <coverage type="line, %" value="99%  (14.9/15)"/>
+            </method>
+            <method name="NetworkOffering (): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (6/6)"/>
+              <coverage type="line, %" value="100% (3/3)"/>
+            </method>
+            <method name="builder (): NetworkOffering$Builder">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (4/4)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+            <method name="compareTo (NetworkOffering): int">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (10/10)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+            <method name="getId (): long">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (3/3)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+            <method name="toString (): String">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (73/73)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+          </class>
+          <class name="NetworkOffering$Builder">
+            <coverage type="class, %" value="100% (1/1)"/>
+            <coverage type="method, %" value="71%  (10/14)"/>
+            <coverage type="block, %" value="76%  (74/98)"/>
+            <coverage type="line, %" value="70%  (19/27)"/>
+
+            <method name="created (Date): NetworkOffering$Builder">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/5)"/>
+              <coverage type="line, %" value="0%   (0/2)"/>
+            </method>
+            <method name="guestIPType (GuestIPType): NetworkOffering$Builder">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/5)"/>
+              <coverage type="line, %" value="0%   (0/2)"/>
+            </method>
+            <method name="maxConnections (Integer): NetworkOffering$Builder">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/5)"/>
+              <coverage type="line, %" value="0%   (0/2)"/>
+            </method>
+            <method name="tags (Set): NetworkOffering$Builder">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/9)"/>
+              <coverage type="line, %" value="0%   (0/2)"/>
+            </method>
+            <method name="NetworkOffering$Builder (): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (6/6)"/>
+              <coverage type="line, %" value="100% (2/2)"/>
+            </method>
+            <method name="availability (NetworkOfferingAvailabilityType): NetworkOffering$Builder">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (5/5)"/>
+              <coverage type="line, %" value="100% (2/2)"/>
+            </method>
+            <method name="build (): NetworkOffering">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (28/28)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+            <method name="displayText (String): NetworkOffering$Builder">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (5/5)"/>
+              <coverage type="line, %" value="100% (2/2)"/>
+            </method>
+            <method name="id (long): NetworkOffering$Builder">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (5/5)"/>
+              <coverage type="line, %" value="100% (2/2)"/>
+            </method>
+            <method name="isDefault (boolean): NetworkOffering$Builder">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (5/5)"/>
+              <coverage type="line, %" value="100% (2/2)"/>
+            </method>
+            <method name="name (String): NetworkOffering$Builder">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (5/5)"/>
+              <coverage type="line, %" value="100% (2/2)"/>
+            </method>
+            <method name="networkRate (int): NetworkOffering$Builder">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (5/5)"/>
+              <coverage type="line, %" value="100% (2/2)"/>
+            </method>
+            <method name="supportsVLAN (boolean): NetworkOffering$Builder">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (5/5)"/>
+              <coverage type="line, %" value="100% (2/2)"/>
+            </method>
+            <method name="trafficType (TrafficType): NetworkOffering$Builder">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (5/5)"/>
+              <coverage type="line, %" value="100% (2/2)"/>
+            </method>
+          </class>
+        </srcfile>
         <srcfile name="NIC.java">
           <coverage type="class, %" value="100% (2/2)"/>
           <coverage type="method, %" value="53%  (16/30)"/>
@@ -4572,6 +4758,252 @@
               <coverage type="line, %" value="100% (2/2)"/>
             </method>
             <method name="type (String): Alert$Builder">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (5/5)"/>
+              <coverage type="line, %" value="100% (2/2)"/>
+            </method>
+          </class>
+        </srcfile>
+        <srcfile name="ServiceOffering.java">
+          <coverage type="class, %" value="100% (2/2)"/>
+          <coverage type="method, %" value="51%  (23/45)"/>
+          <coverage type="block, %" value="60%  (404/668)"/>
+          <coverage type="line, %" value="43%  (59.7/138)"/>
+
+          <class name="ServiceOffering">
+            <coverage type="class, %" value="100% (1/1)"/>
+            <coverage type="method, %" value="48%  (12/25)"/>
+            <coverage type="block, %" value="59%  (313/528)"/>
+            <coverage type="line, %" value="39%  (38.7/99)"/>
+
+            <method name="equals (Object): boolean">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/152)"/>
+              <coverage type="line, %" value="0%   (0/47)"/>
+            </method>
+            <method name="getCreated (): Date">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/3)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="getDisplayText (): String">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/3)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="getDomain (): String">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/3)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="getDomainId (): long">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/3)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="getHostTags (): String">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/3)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="getNetworkRate (): long">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/3)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="getStorageType (): StorageType">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/3)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="isCpuUseLimited (): boolean">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/3)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="isDefaultUse (): boolean">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/3)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="isSystemOffering (): boolean">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/3)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="isSystemVmType (): boolean">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/3)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="supportsHA (): boolean">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/3)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="getTags (): Set">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="42%  (5/12)"/>
+              <coverage type="line, %" value="41%  (0.4/1)"/>
+            </method>
+            <method name="hashCode (): int">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="89%  (126/142)"/>
+              <coverage type="line, %" value="96%  (14.4/15)"/>
+            </method>
+            <method name="ServiceOffering (long, String, String, Date, String, long, int, int, int, boolean, StorageType, Set, boolean, String, boolean, boolean, long, boolean): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="91%  (43/47)"/>
+              <coverage type="line, %" value="99%  (13.9/14)"/>
+            </method>
+            <method name="ServiceOffering (): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (3/3)"/>
+              <coverage type="line, %" value="100% (2/2)"/>
+            </method>
+            <method name="builder (): ServiceOffering$Builder">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (4/4)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+            <method name="compareTo (ServiceOffering): int">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (10/10)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+            <method name="getCpuNumber (): int">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (3/3)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+            <method name="getCpuSpeed (): int">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (3/3)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+            <method name="getId (): long">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (3/3)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+            <method name="getMemory (): int">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (3/3)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+            <method name="getName (): String">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (3/3)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+            <method name="toString (): String">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (107/107)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+          </class>
+          <class name="ServiceOffering$Builder">
+            <coverage type="class, %" value="100% (1/1)"/>
+            <coverage type="method, %" value="55%  (11/20)"/>
+            <coverage type="block, %" value="65%  (91/140)"/>
+            <coverage type="line, %" value="54%  (21/39)"/>
+
+            <method name="cpuUseLimited (boolean): ServiceOffering$Builder">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/5)"/>
+              <coverage type="line, %" value="0%   (0/2)"/>
+            </method>
+            <method name="defaultUse (boolean): ServiceOffering$Builder">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/5)"/>
+              <coverage type="line, %" value="0%   (0/2)"/>
+            </method>
+            <method name="domain (String): ServiceOffering$Builder">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/5)"/>
+              <coverage type="line, %" value="0%   (0/2)"/>
+            </method>
+            <method name="domainId (long): ServiceOffering$Builder">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/5)"/>
+              <coverage type="line, %" value="0%   (0/2)"/>
+            </method>
+            <method name="hostTags (String): ServiceOffering$Builder">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/5)"/>
+              <coverage type="line, %" value="0%   (0/2)"/>
+            </method>
+            <method name="networkRate (long): ServiceOffering$Builder">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/5)"/>
+              <coverage type="line, %" value="0%   (0/2)"/>
+            </method>
+            <method name="systemOffering (boolean): ServiceOffering$Builder">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/5)"/>
+              <coverage type="line, %" value="0%   (0/2)"/>
+            </method>
+            <method name="systemVmType (boolean): ServiceOffering$Builder">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/5)"/>
+              <coverage type="line, %" value="0%   (0/2)"/>
+            </method>
+            <method name="tags (Set): ServiceOffering$Builder">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/9)"/>
+              <coverage type="line, %" value="0%   (0/2)"/>
+            </method>
+            <method name="ServiceOffering$Builder (): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (6/6)"/>
+              <coverage type="line, %" value="100% (2/2)"/>
+            </method>
+            <method name="build (): ServiceOffering">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (40/40)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+            <method name="cpuNumber (int): ServiceOffering$Builder">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (5/5)"/>
+              <coverage type="line, %" value="100% (2/2)"/>
+            </method>
+            <method name="cpuSpeed (int): ServiceOffering$Builder">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (5/5)"/>
+              <coverage type="line, %" value="100% (2/2)"/>
+            </method>
+            <method name="created (Date): ServiceOffering$Builder">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (5/5)"/>
+              <coverage type="line, %" value="100% (2/2)"/>
+            </method>
+            <method name="displayText (String): ServiceOffering$Builder">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (5/5)"/>
+              <coverage type="line, %" value="100% (2/2)"/>
+            </method>
+            <method name="haSupport (boolean): ServiceOffering$Builder">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (5/5)"/>
+              <coverage type="line, %" value="100% (2/2)"/>
+            </method>
+            <method name="id (long): ServiceOffering$Builder">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (5/5)"/>
+              <coverage type="line, %" value="100% (2/2)"/>
+            </method>
+            <method name="memory (int): ServiceOffering$Builder">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (5/5)"/>
+              <coverage type="line, %" value="100% (2/2)"/>
+            </method>
+            <method name="name (String): ServiceOffering$Builder">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (5/5)"/>
+              <coverage type="line, %" value="100% (2/2)"/>
+            </method>
+            <method name="storageType (StorageType): ServiceOffering$Builder">
               <coverage type="method, %" value="100% (1/1)"/>
               <coverage type="block, %" value="100% (5/5)"/>
               <coverage type="line, %" value="100% (2/2)"/>
@@ -5025,252 +5457,6 @@
               <coverage type="method, %" value="100% (1/1)"/>
               <coverage type="block, %" value="100% (4/4)"/>
               <coverage type="line, %" value="100% (1/1)"/>
-            </method>
-          </class>
-        </srcfile>
-        <srcfile name="ServiceOffering.java">
-          <coverage type="class, %" value="100% (2/2)"/>
-          <coverage type="method, %" value="53%  (24/45)"/>
-          <coverage type="block, %" value="64%  (429/668)"/>
-          <coverage type="line, %" value="48%  (66.7/138)"/>
-
-          <class name="ServiceOffering">
-            <coverage type="class, %" value="100% (1/1)"/>
-            <coverage type="method, %" value="52%  (13/25)"/>
-            <coverage type="block, %" value="64%  (338/528)"/>
-            <coverage type="line, %" value="46%  (45.7/99)"/>
-
-            <method name="getCreated (): Date">
-              <coverage type="method, %" value="0%   (0/1)"/>
-              <coverage type="block, %" value="0%   (0/3)"/>
-              <coverage type="line, %" value="0%   (0/1)"/>
-            </method>
-            <method name="getDisplayText (): String">
-              <coverage type="method, %" value="0%   (0/1)"/>
-              <coverage type="block, %" value="0%   (0/3)"/>
-              <coverage type="line, %" value="0%   (0/1)"/>
-            </method>
-            <method name="getDomain (): String">
-              <coverage type="method, %" value="0%   (0/1)"/>
-              <coverage type="block, %" value="0%   (0/3)"/>
-              <coverage type="line, %" value="0%   (0/1)"/>
-            </method>
-            <method name="getDomainId (): long">
-              <coverage type="method, %" value="0%   (0/1)"/>
-              <coverage type="block, %" value="0%   (0/3)"/>
-              <coverage type="line, %" value="0%   (0/1)"/>
-            </method>
-            <method name="getHostTags (): String">
-              <coverage type="method, %" value="0%   (0/1)"/>
-              <coverage type="block, %" value="0%   (0/3)"/>
-              <coverage type="line, %" value="0%   (0/1)"/>
-            </method>
-            <method name="getNetworkRate (): long">
-              <coverage type="method, %" value="0%   (0/1)"/>
-              <coverage type="block, %" value="0%   (0/3)"/>
-              <coverage type="line, %" value="0%   (0/1)"/>
-            </method>
-            <method name="getStorageType (): StorageType">
-              <coverage type="method, %" value="0%   (0/1)"/>
-              <coverage type="block, %" value="0%   (0/3)"/>
-              <coverage type="line, %" value="0%   (0/1)"/>
-            </method>
-            <method name="isCpuUseLimited (): boolean">
-              <coverage type="method, %" value="0%   (0/1)"/>
-              <coverage type="block, %" value="0%   (0/3)"/>
-              <coverage type="line, %" value="0%   (0/1)"/>
-            </method>
-            <method name="isDefaultUse (): boolean">
-              <coverage type="method, %" value="0%   (0/1)"/>
-              <coverage type="block, %" value="0%   (0/3)"/>
-              <coverage type="line, %" value="0%   (0/1)"/>
-            </method>
-            <method name="isSystemOffering (): boolean">
-              <coverage type="method, %" value="0%   (0/1)"/>
-              <coverage type="block, %" value="0%   (0/3)"/>
-              <coverage type="line, %" value="0%   (0/1)"/>
-            </method>
-            <method name="isSystemVmType (): boolean">
-              <coverage type="method, %" value="0%   (0/1)"/>
-              <coverage type="block, %" value="0%   (0/3)"/>
-              <coverage type="line, %" value="0%   (0/1)"/>
-            </method>
-            <method name="supportsHA (): boolean">
-              <coverage type="method, %" value="0%   (0/1)"/>
-              <coverage type="block, %" value="0%   (0/3)"/>
-              <coverage type="line, %" value="0%   (0/1)"/>
-            </method>
-            <method name="equals (Object): boolean">
-              <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="16%  (25/152)"/>
-              <coverage type="line, %" value="15%  (7/47)"/>
-            </method>
-            <method name="getTags (): Set">
-              <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="42%  (5/12)"/>
-              <coverage type="line, %" value="41%  (0.4/1)"/>
-            </method>
-            <method name="hashCode (): int">
-              <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="89%  (126/142)"/>
-              <coverage type="line, %" value="96%  (14.4/15)"/>
-            </method>
-            <method name="ServiceOffering (long, String, String, Date, String, long, int, int, int, boolean, StorageType, Set, boolean, String, boolean, boolean, long, boolean): void">
-              <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="91%  (43/47)"/>
-              <coverage type="line, %" value="99%  (13.9/14)"/>
-            </method>
-            <method name="ServiceOffering (): void">
-              <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="100% (3/3)"/>
-              <coverage type="line, %" value="100% (2/2)"/>
-            </method>
-            <method name="builder (): ServiceOffering$Builder">
-              <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="100% (4/4)"/>
-              <coverage type="line, %" value="100% (1/1)"/>
-            </method>
-            <method name="compareTo (ServiceOffering): int">
-              <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="100% (10/10)"/>
-              <coverage type="line, %" value="100% (1/1)"/>
-            </method>
-            <method name="getCpuNumber (): int">
-              <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="100% (3/3)"/>
-              <coverage type="line, %" value="100% (1/1)"/>
-            </method>
-            <method name="getCpuSpeed (): int">
-              <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="100% (3/3)"/>
-              <coverage type="line, %" value="100% (1/1)"/>
-            </method>
-            <method name="getId (): long">
-              <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="100% (3/3)"/>
-              <coverage type="line, %" value="100% (1/1)"/>
-            </method>
-            <method name="getMemory (): int">
-              <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="100% (3/3)"/>
-              <coverage type="line, %" value="100% (1/1)"/>
-            </method>
-            <method name="getName (): String">
-              <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="100% (3/3)"/>
-              <coverage type="line, %" value="100% (1/1)"/>
-            </method>
-            <method name="toString (): String">
-              <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="100% (107/107)"/>
-              <coverage type="line, %" value="100% (1/1)"/>
-            </method>
-          </class>
-          <class name="ServiceOffering$Builder">
-            <coverage type="class, %" value="100% (1/1)"/>
-            <coverage type="method, %" value="55%  (11/20)"/>
-            <coverage type="block, %" value="65%  (91/140)"/>
-            <coverage type="line, %" value="54%  (21/39)"/>
-
-            <method name="cpuUseLimited (boolean): ServiceOffering$Builder">
-              <coverage type="method, %" value="0%   (0/1)"/>
-              <coverage type="block, %" value="0%   (0/5)"/>
-              <coverage type="line, %" value="0%   (0/2)"/>
-            </method>
-            <method name="defaultUse (boolean): ServiceOffering$Builder">
-              <coverage type="method, %" value="0%   (0/1)"/>
-              <coverage type="block, %" value="0%   (0/5)"/>
-              <coverage type="line, %" value="0%   (0/2)"/>
-            </method>
-            <method name="domain (String): ServiceOffering$Builder">
-              <coverage type="method, %" value="0%   (0/1)"/>
-              <coverage type="block, %" value="0%   (0/5)"/>
-              <coverage type="line, %" value="0%   (0/2)"/>
-            </method>
-            <method name="domainId (long): ServiceOffering$Builder">
-              <coverage type="method, %" value="0%   (0/1)"/>
-              <coverage type="block, %" value="0%   (0/5)"/>
-              <coverage type="line, %" value="0%   (0/2)"/>
-            </method>
-            <method name="hostTags (String): ServiceOffering$Builder">
-              <coverage type="method, %" value="0%   (0/1)"/>
-              <coverage type="block, %" value="0%   (0/5)"/>
-              <coverage type="line, %" value="0%   (0/2)"/>
-            </method>
-            <method name="networkRate (long): ServiceOffering$Builder">
-              <coverage type="method, %" value="0%   (0/1)"/>
-              <coverage type="block, %" value="0%   (0/5)"/>
-              <coverage type="line, %" value="0%   (0/2)"/>
-            </method>
-            <method name="systemOffering (boolean): ServiceOffering$Builder">
-              <coverage type="method, %" value="0%   (0/1)"/>
-              <coverage type="block, %" value="0%   (0/5)"/>
-              <coverage type="line, %" value="0%   (0/2)"/>
-            </method>
-            <method name="systemVmType (boolean): ServiceOffering$Builder">
-              <coverage type="method, %" value="0%   (0/1)"/>
-              <coverage type="block, %" value="0%   (0/5)"/>
-              <coverage type="line, %" value="0%   (0/2)"/>
-            </method>
-            <method name="tags (Set): ServiceOffering$Builder">
-              <coverage type="method, %" value="0%   (0/1)"/>
-              <coverage type="block, %" value="0%   (0/9)"/>
-              <coverage type="line, %" value="0%   (0/2)"/>
-            </method>
-            <method name="ServiceOffering$Builder (): void">
-              <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="100% (6/6)"/>
-              <coverage type="line, %" value="100% (2/2)"/>
-            </method>
-            <method name="build (): ServiceOffering">
-              <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="100% (40/40)"/>
-              <coverage type="line, %" value="100% (1/1)"/>
-            </method>
-            <method name="cpuNumber (int): ServiceOffering$Builder">
-              <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="100% (5/5)"/>
-              <coverage type="line, %" value="100% (2/2)"/>
-            </method>
-            <method name="cpuSpeed (int): ServiceOffering$Builder">
-              <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="100% (5/5)"/>
-              <coverage type="line, %" value="100% (2/2)"/>
-            </method>
-            <method name="created (Date): ServiceOffering$Builder">
-              <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="100% (5/5)"/>
-              <coverage type="line, %" value="100% (2/2)"/>
-            </method>
-            <method name="displayText (String): ServiceOffering$Builder">
-              <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="100% (5/5)"/>
-              <coverage type="line, %" value="100% (2/2)"/>
-            </method>
-            <method name="haSupport (boolean): ServiceOffering$Builder">
-              <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="100% (5/5)"/>
-              <coverage type="line, %" value="100% (2/2)"/>
-            </method>
-            <method name="id (long): ServiceOffering$Builder">
-              <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="100% (5/5)"/>
-              <coverage type="line, %" value="100% (2/2)"/>
-            </method>
-            <method name="memory (int): ServiceOffering$Builder">
-              <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="100% (5/5)"/>
-              <coverage type="line, %" value="100% (2/2)"/>
-            </method>
-            <method name="name (String): ServiceOffering$Builder">
-              <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="100% (5/5)"/>
-              <coverage type="line, %" value="100% (2/2)"/>
-            </method>
-            <method name="storageType (StorageType): ServiceOffering$Builder">
-              <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="100% (5/5)"/>
-              <coverage type="line, %" value="100% (2/2)"/>
             </method>
           </class>
         </srcfile>
@@ -5784,192 +5970,6 @@
               <coverage type="method, %" value="100% (1/1)"/>
               <coverage type="block, %" value="100% (4/4)"/>
               <coverage type="line, %" value="100% (1/1)"/>
-            </method>
-          </class>
-        </srcfile>
-        <srcfile name="NetworkOffering.java">
-          <coverage type="class, %" value="100% (2/2)"/>
-          <coverage type="method, %" value="55%  (18/33)"/>
-          <coverage type="block, %" value="65%  (367/564)"/>
-          <coverage type="line, %" value="53%  (63/118)"/>
-
-          <class name="NetworkOffering">
-            <coverage type="class, %" value="100% (1/1)"/>
-            <coverage type="method, %" value="42%  (8/19)"/>
-            <coverage type="block, %" value="63%  (293/466)"/>
-            <coverage type="line, %" value="48%  (44/91)"/>
-
-            <method name="getAvailability (): NetworkOfferingAvailabilityType">
-              <coverage type="method, %" value="0%   (0/1)"/>
-              <coverage type="block, %" value="0%   (0/3)"/>
-              <coverage type="line, %" value="0%   (0/1)"/>
-            </method>
-            <method name="getCreated (): Date">
-              <coverage type="method, %" value="0%   (0/1)"/>
-              <coverage type="block, %" value="0%   (0/3)"/>
-              <coverage type="line, %" value="0%   (0/1)"/>
-            </method>
-            <method name="getDisplayText (): String">
-              <coverage type="method, %" value="0%   (0/1)"/>
-              <coverage type="block, %" value="0%   (0/3)"/>
-              <coverage type="line, %" value="0%   (0/1)"/>
-            </method>
-            <method name="getGuestIPType (): GuestIPType">
-              <coverage type="method, %" value="0%   (0/1)"/>
-              <coverage type="block, %" value="0%   (0/3)"/>
-              <coverage type="line, %" value="0%   (0/1)"/>
-            </method>
-            <method name="getMaxConnections (): Integer">
-              <coverage type="method, %" value="0%   (0/1)"/>
-              <coverage type="block, %" value="0%   (0/3)"/>
-              <coverage type="line, %" value="0%   (0/1)"/>
-            </method>
-            <method name="getName (): String">
-              <coverage type="method, %" value="0%   (0/1)"/>
-              <coverage type="block, %" value="0%   (0/3)"/>
-              <coverage type="line, %" value="0%   (0/1)"/>
-            </method>
-            <method name="getNetworkRate (): int">
-              <coverage type="method, %" value="0%   (0/1)"/>
-              <coverage type="block, %" value="0%   (0/3)"/>
-              <coverage type="line, %" value="0%   (0/1)"/>
-            </method>
-            <method name="getTags (): Set">
-              <coverage type="method, %" value="0%   (0/1)"/>
-              <coverage type="block, %" value="0%   (0/12)"/>
-              <coverage type="line, %" value="0%   (0/1)"/>
-            </method>
-            <method name="getTrafficType (): TrafficType">
-              <coverage type="method, %" value="0%   (0/1)"/>
-              <coverage type="block, %" value="0%   (0/3)"/>
-              <coverage type="line, %" value="0%   (0/1)"/>
-            </method>
-            <method name="isDefault (): boolean">
-              <coverage type="method, %" value="0%   (0/1)"/>
-              <coverage type="block, %" value="0%   (0/3)"/>
-              <coverage type="line, %" value="0%   (0/1)"/>
-            </method>
-            <method name="supportsVLAN (): boolean">
-              <coverage type="method, %" value="0%   (0/1)"/>
-              <coverage type="block, %" value="0%   (0/3)"/>
-              <coverage type="line, %" value="0%   (0/1)"/>
-            </method>
-            <method name="equals (Object): boolean">
-              <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="27%  (39/146)"/>
-              <coverage type="line, %" value="24%  (11/46)"/>
-            </method>
-            <method name="hashCode (): int">
-              <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="85%  (112/132)"/>
-              <coverage type="line, %" value="93%  (12/13)"/>
-            </method>
-            <method name="NetworkOffering (long, String, String, Date, NetworkOfferingAvailabilityType, boolean, Integer, boolean, TrafficType, GuestIPType, int, Set): void">
-              <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="92%  (46/50)"/>
-              <coverage type="line, %" value="99%  (14.9/15)"/>
-            </method>
-            <method name="NetworkOffering (): void">
-              <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="100% (6/6)"/>
-              <coverage type="line, %" value="100% (3/3)"/>
-            </method>
-            <method name="builder (): NetworkOffering$Builder">
-              <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="100% (4/4)"/>
-              <coverage type="line, %" value="100% (1/1)"/>
-            </method>
-            <method name="compareTo (NetworkOffering): int">
-              <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="100% (10/10)"/>
-              <coverage type="line, %" value="100% (1/1)"/>
-            </method>
-            <method name="getId (): long">
-              <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="100% (3/3)"/>
-              <coverage type="line, %" value="100% (1/1)"/>
-            </method>
-            <method name="toString (): String">
-              <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="100% (73/73)"/>
-              <coverage type="line, %" value="100% (1/1)"/>
-            </method>
-          </class>
-          <class name="NetworkOffering$Builder">
-            <coverage type="class, %" value="100% (1/1)"/>
-            <coverage type="method, %" value="71%  (10/14)"/>
-            <coverage type="block, %" value="76%  (74/98)"/>
-            <coverage type="line, %" value="70%  (19/27)"/>
-
-            <method name="created (Date): NetworkOffering$Builder">
-              <coverage type="method, %" value="0%   (0/1)"/>
-              <coverage type="block, %" value="0%   (0/5)"/>
-              <coverage type="line, %" value="0%   (0/2)"/>
-            </method>
-            <method name="guestIPType (GuestIPType): NetworkOffering$Builder">
-              <coverage type="method, %" value="0%   (0/1)"/>
-              <coverage type="block, %" value="0%   (0/5)"/>
-              <coverage type="line, %" value="0%   (0/2)"/>
-            </method>
-            <method name="maxConnections (Integer): NetworkOffering$Builder">
-              <coverage type="method, %" value="0%   (0/1)"/>
-              <coverage type="block, %" value="0%   (0/5)"/>
-              <coverage type="line, %" value="0%   (0/2)"/>
-            </method>
-            <method name="tags (Set): NetworkOffering$Builder">
-              <coverage type="method, %" value="0%   (0/1)"/>
-              <coverage type="block, %" value="0%   (0/9)"/>
-              <coverage type="line, %" value="0%   (0/2)"/>
-            </method>
-            <method name="NetworkOffering$Builder (): void">
-              <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="100% (6/6)"/>
-              <coverage type="line, %" value="100% (2/2)"/>
-            </method>
-            <method name="availability (NetworkOfferingAvailabilityType): NetworkOffering$Builder">
-              <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="100% (5/5)"/>
-              <coverage type="line, %" value="100% (2/2)"/>
-            </method>
-            <method name="build (): NetworkOffering">
-              <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="100% (28/28)"/>
-              <coverage type="line, %" value="100% (1/1)"/>
-            </method>
-            <method name="displayText (String): NetworkOffering$Builder">
-              <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="100% (5/5)"/>
-              <coverage type="line, %" value="100% (2/2)"/>
-            </method>
-            <method name="id (long): NetworkOffering$Builder">
-              <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="100% (5/5)"/>
-              <coverage type="line, %" value="100% (2/2)"/>
-            </method>
-            <method name="isDefault (boolean): NetworkOffering$Builder">
-              <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="100% (5/5)"/>
-              <coverage type="line, %" value="100% (2/2)"/>
-            </method>
-            <method name="name (String): NetworkOffering$Builder">
-              <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="100% (5/5)"/>
-              <coverage type="line, %" value="100% (2/2)"/>
-            </method>
-            <method name="networkRate (int): NetworkOffering$Builder">
-              <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="100% (5/5)"/>
-              <coverage type="line, %" value="100% (2/2)"/>
-            </method>
-            <method name="supportsVLAN (boolean): NetworkOffering$Builder">
-              <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="100% (5/5)"/>
-              <coverage type="line, %" value="100% (2/2)"/>
-            </method>
-            <method name="trafficType (TrafficType): NetworkOffering$Builder">
-              <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="100% (5/5)"/>
-              <coverage type="line, %" value="100% (2/2)"/>
             </method>
           </class>
         </srcfile>
@@ -9830,14 +9830,14 @@
         <srcfile name="FirewallRule.java">
           <coverage type="class, %" value="100% (4/4)"/>
           <coverage type="method, %" value="78%  (31/40)"/>
-          <coverage type="block, %" value="85%  (535/632)"/>
-          <coverage type="line, %" value="76%  (74/98)"/>
+          <coverage type="block, %" value="84%  (533/632)"/>
+          <coverage type="line, %" value="75%  (73.8/98)"/>
 
           <class name="FirewallRule">
             <coverage type="class, %" value="100% (1/1)"/>
             <coverage type="method, %" value="44%  (7/16)"/>
-            <coverage type="block, %" value="77%  (313/404)"/>
-            <coverage type="line, %" value="65%  (37/57)"/>
+            <coverage type="block, %" value="77%  (311/404)"/>
+            <coverage type="line, %" value="65%  (36.8/57)"/>
 
             <method name="getCIDRs (): Set">
               <coverage type="method, %" value="0%   (0/1)"/>
@@ -9886,8 +9886,8 @@
             </method>
             <method name="equals (Object): boolean">
               <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="63%  (87/139)"/>
-              <coverage type="line, %" value="50%  (10.5/21)"/>
+              <coverage type="block, %" value="61%  (85/139)"/>
+              <coverage type="line, %" value="49%  (10.3/21)"/>
             </method>
             <method name="hashCode (): int">
               <coverage type="method, %" value="100% (1/1)"/>
@@ -10330,14 +10330,14 @@
         <srcfile name="Host.java">
           <coverage type="class, %" value="100% (5/5)"/>
           <coverage type="method, %" value="56%  (62/111)"/>
-          <coverage type="block, %" value="85%  (1860/2183)"/>
-          <coverage type="line, %" value="76%  (237/313)"/>
+          <coverage type="block, %" value="85%  (1858/2183)"/>
+          <coverage type="line, %" value="76%  (236.7/313)"/>
 
           <class name="Host">
             <coverage type="class, %" value="100% (1/1)"/>
             <coverage type="method, %" value="16%  (8/49)"/>
-            <coverage type="block, %" value="82%  (1218/1492)"/>
-            <coverage type="line, %" value="70%  (126/180)"/>
+            <coverage type="block, %" value="82%  (1216/1492)"/>
+            <coverage type="line, %" value="70%  (125.7/180)"/>
 
             <method name="getAllocationState (): AllocationState">
               <coverage type="method, %" value="0%   (0/1)"/>
@@ -10546,8 +10546,8 @@
             </method>
             <method name="equals (Object): boolean">
               <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="72%  (328/457)"/>
-              <coverage type="line, %" value="74%  (33.8/46)"/>
+              <coverage type="block, %" value="71%  (326/457)"/>
+              <coverage type="line, %" value="73%  (33.6/46)"/>
             </method>
             <method name="hashCode (): int">
               <coverage type="method, %" value="100% (1/1)"/>
@@ -11351,51 +11351,14 @@
         <srcfile name="AsyncJob.java">
           <coverage type="class, %" value="100% (4/4)"/>
           <coverage type="method, %" value="84%  (52/62)"/>
-          <coverage type="block, %" value="89%  (815/916)"/>
-          <coverage type="line, %" value="80%  (142.5/178)"/>
+          <coverage type="block, %" value="88%  (807/916)"/>
+          <coverage type="line, %" value="79%  (140.5/178)"/>
 
-          <class name="AsyncJob$ResultCode">
-            <coverage type="class, %" value="100% (1/1)"/>
-            <coverage type="method, %" value="83%  (5/6)"/>
-            <coverage type="block, %" value="86%  (61/71)"/>
-            <coverage type="line, %" value="79%  (11.9/15)"/>
-
-            <method name="valueOf (String): AsyncJob$ResultCode">
-              <coverage type="method, %" value="0%   (0/1)"/>
-              <coverage type="block, %" value="0%   (0/5)"/>
-              <coverage type="line, %" value="0%   (0/1)"/>
-            </method>
-            <method name="fromValue (String): AsyncJob$ResultCode">
-              <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="64%  (9/14)"/>
-              <coverage type="line, %" value="57%  (4/7)"/>
-            </method>
-            <method name="&lt;static initializer&gt;">
-              <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="100% (37/37)"/>
-              <coverage type="line, %" value="100% (4/4)"/>
-            </method>
-            <method name="AsyncJob$ResultCode (String, int, int): void">
-              <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="100% (8/8)"/>
-              <coverage type="line, %" value="100% (3/3)"/>
-            </method>
-            <method name="code (): int">
-              <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="100% (3/3)"/>
-              <coverage type="line, %" value="100% (1/1)"/>
-            </method>
-            <method name="values (): AsyncJob$ResultCode []">
-              <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="100% (4/4)"/>
-              <coverage type="line, %" value="100% (1/1)"/>
-            </method>
-          </class>
           <class name="AsyncJob">
             <coverage type="class, %" value="100% (1/1)"/>
             <coverage type="method, %" value="76%  (26/34)"/>
-            <coverage type="block, %" value="86%  (518/599)"/>
-            <coverage type="line, %" value="73%  (80.7/110)"/>
+            <coverage type="block, %" value="85%  (510/599)"/>
+            <coverage type="line, %" value="72%  (78.7/110)"/>
 
             <method name="getAccountId (): long">
               <coverage type="method, %" value="0%   (0/1)"/>
@@ -11439,8 +11402,8 @@
             </method>
             <method name="equals (Object): boolean">
               <coverage type="method, %" value="100% (1/1)"/>
-              <coverage type="block, %" value="73%  (123/169)"/>
-              <coverage type="line, %" value="60%  (31/52)"/>
+              <coverage type="block, %" value="68%  (115/169)"/>
+              <coverage type="line, %" value="56%  (29/52)"/>
             </method>
             <method name="hasSucceed (): boolean">
               <coverage type="method, %" value="100% (1/1)"/>
@@ -11565,6 +11528,43 @@
             <method name="toString (): String">
               <coverage type="method, %" value="100% (1/1)"/>
               <coverage type="block, %" value="100% (78/78)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+          </class>
+          <class name="AsyncJob$ResultCode">
+            <coverage type="class, %" value="100% (1/1)"/>
+            <coverage type="method, %" value="83%  (5/6)"/>
+            <coverage type="block, %" value="86%  (61/71)"/>
+            <coverage type="line, %" value="79%  (11.9/15)"/>
+
+            <method name="valueOf (String): AsyncJob$ResultCode">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/5)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="fromValue (String): AsyncJob$ResultCode">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="64%  (9/14)"/>
+              <coverage type="line, %" value="57%  (4/7)"/>
+            </method>
+            <method name="&lt;static initializer&gt;">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (37/37)"/>
+              <coverage type="line, %" value="100% (4/4)"/>
+            </method>
+            <method name="AsyncJob$ResultCode (String, int, int): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (8/8)"/>
+              <coverage type="line, %" value="100% (3/3)"/>
+            </method>
+            <method name="code (): int">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (3/3)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+            <method name="values (): AsyncJob$ResultCode []">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (4/4)"/>
               <coverage type="line, %" value="100% (1/1)"/>
             </method>
           </class>
