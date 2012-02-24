@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<pmd version="4.2.5" timestamp="2012-02-22T11:59:25.596">
+<pmd version="4.2.5" timestamp="2012-02-24T14:37:04.931">
 <file name="/scratch/hudson/workspace/jclouds-1.4.0-rc.2-maven-site/apis/cloudloadbalancers/src/main/java/org/jclouds/cloudloadbalancers/features/LoadBalancerClient.java">
 <violation beginline="28" endline="28" begincolumn="1" endcolumn="46" rule="UnusedImports" ruleset="Import Statement Rules" package="org.jclouds.cloudloadbalancers.features" externalInfoUrl="http://pmd.sourceforge.net/rules/imports.html#UnusedImports" priority="4">
 Avoid unused imports such as 'org.jclouds.http.HttpResponseException'
