@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<pmd version="4.2.5" timestamp="2012-02-22T11:56:59.239">
+<pmd version="4.2.5" timestamp="2012-02-24T14:30:38.398">
 <file name="/scratch/hudson/workspace/jclouds-1.4.0-rc.2-maven-site/apis/cloudservers/src/main/java/org/jclouds/cloudservers/CloudServersClient.java">
 <violation beginline="41" endline="41" begincolumn="1" endcolumn="50" rule="UnusedImports" ruleset="Import Statement Rules" package="org.jclouds.cloudservers" externalInfoUrl="http://pmd.sourceforge.net/rules/imports.html#UnusedImports" priority="4">
 Avoid unused imports such as 'org.jclouds.rest.ResourceNotFoundException'
