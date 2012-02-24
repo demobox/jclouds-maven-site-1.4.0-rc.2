@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<pmd version="4.2.5" timestamp="2012-02-22T13:59:07.137">
+<pmd version="4.2.5" timestamp="2012-02-24T18:42:04.847">
 <file name="/scratch/hudson/workspace/jclouds-1.4.0-rc.2-maven-site/providers/savvis-symphonyvpdc/src/main/java/org/jclouds/savvis/vpdc/compute/functions/VMToNodeMetadata.java">
 <violation beginline="76" endline="78" begincolumn="9" endcolumn="7" rule="EmptyCatchBlock" ruleset="Basic Rules" package="org.jclouds.savvis.vpdc.compute.functions" class="VMToNodeMetadata" method="apply" externalInfoUrl="http://pmd.sourceforge.net/rules/basic.html#EmptyCatchBlock" priority="3">
 Avoid empty catch blocks
